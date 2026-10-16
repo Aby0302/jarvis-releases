@@ -16,6 +16,7 @@ pakete dahil edilmez. Yerel modeller için ayrıca Ollama kurulmalıdır.
 - Tarayıcı araçları: Chromium veya Chrome kurulu olmalı.
 - Android cihaz kontrolü: adb kurulu ve USB hata ayıklama izni verilmiş olmalı.
 - Belge görselleri: LibreOffice kurulu olmalı. PDF Türkçe yazı tipi için DejaVu Sans kur.
+- Kodda arama: `rg` (ripgrep), alternatif olarak `grep`, PATH içinde bulunmalı.
 
 Bu önizleme Piper'ın GPL kitaplığını veya lisansı ayrıca değerlendirilmesi gereken
 uyandırma kelimesi modellerini içermez. "Hey Jarvis" bu pakette etkin değildir.
@@ -25,3 +26,7 @@ Windows kurulum dosyası henüz bir yayıncı sertifikasıyla imzalı değildir.
 Veri dizinleri: Linux `$XDG_DATA_HOME/Jarvis` (varsayılan `~/.local/share/Jarvis`),
 Windows `%LOCALAPPDATA%/Jarvis`. Her iki platformda `JARVIS_DATA_DIR` ile değiştirilebilir.
 Üçüncü taraf bildirimleri `THIRD_PARTY_NOTICES` dizinindedir.
+
+Linux'ta `.deb` paketini destekleyen dağıtımlarda paket yöneticinle kur.
+Taşınabilir `.tar.gz` sürümünü çıkardıktan sonra `usr/bin/jarvis` dosyasını çalıştır;
+GTK 3 ve WebKitGTK 4.1 sistemde bulunmalıdır. `usr/bin` ve `usr/lib` dizinlerini birlikte taşı.

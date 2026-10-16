@@ -12,3 +12,11 @@ uygulamanın ilk kurulum ekranında kendiniz girin; paketlerde geliştirici anah
 
 Üçüncü taraf bileşenlerin lisans bildirimleri kurulumun `THIRD_PARTY_NOTICES`
 dizininde yer alır. Bu bileşenlerin lisansları kendi sahiplerine aittir.
+
+## Kurulum
+
+- Windows: `*-setup.exe` dosyasını çalıştırın.
+- Debian/Ubuntu: `.deb` dosyasını paket yöneticinizle kurun.
+- Diğer Linux dağıtımları: `*_linux-x64.tar.gz` arşivini çıkarıp içindeki `usr/bin/jarvis` dosyasını çalıştırın. GTK 3 ve WebKitGTK 4.1 gerekir; `usr` dizininin iç yapısını koruyun.
+
+Önizleme Windows paketi henüz yayıncı sertifikasıyla imzalı değildir.
