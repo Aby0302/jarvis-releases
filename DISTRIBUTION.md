@@ -3,6 +3,9 @@
 Uygulama kaynak kodu içermez; ürünün Python modülleri yerel uzantılara derlenmiştir.
 Kaynak depo özeldir. Tersine mühendisliğe karşı mutlak koruma vaat edilmez.
 
+Bu paketler x86_64 işlemciler içindir. Linux paketleri Ubuntu 22.04 üzerinde üretilir;
+taşınabilir sürüm için de GTK 3 ve WebKitGTK 4.1 sistemde bulunmalıdır.
+
 Kurulum Python veya kaynak klasörü gerektirmez. İlk açılışta kendi sağlayıcını ve
 gerekiyorsa kendi API anahtarını gir. Geliştiricinin anahtarı, sohbeti veya hafızası
 pakete dahil edilmez. Yerel modeller için ayrıca Ollama kurulmalıdır.

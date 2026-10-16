@@ -6,7 +6,7 @@ JARVIS kişisel yapay zekâ asistanının Linux ve Windows kurulum dosyaları bu
 Bu depo ürünün kaynak kodunu içermez. Kaynak geliştirme deposu özeldir.
 GitHub'ın otomatik `Source code` arşivleri yalnızca bu dağıtım belgelerini içerir.
 
-İlk masaüstü sürümü önizlemedir. Android paketi henüz yayınlanmamıştır.
+İlk masaüstü sürümü x86_64 için önizlemedir. Android paketi henüz yayınlanmamıştır.
 Kurulum öncesinde [dağıtım notlarını](DISTRIBUTION.md) okuyun. API anahtarınızı
 uygulamanın ilk kurulum ekranında kendiniz girin; paketlerde geliştirici anahtarı yoktur.
 
